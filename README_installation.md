@@ -1,22 +1,7 @@
-# Model Based Controller
+# Project Name
 
-This repository does this...
-
-## Structure of the repository
-
-The repository is organized into two big parts:
-- **'lib'**: general files that can be used to create your own human-robot-interaction based on our framework. **It includes the ToM Model** code.
-- **'experimentNao'**: Human-Robot interaction between Nao robot where the humans participants can play chess with the robot. 
-  - The robot uses the ToM model to interact with the participant. This package depends on the 'lib' package.
-
-Depending on which part of the project you are planning to use, find the specific READ ME file for each one the two parts inside the respective folder:
-- [README Experiment](experimentNao/README.md) of 'experimentNao'.  
-- [README Model](lib/tom_model/README) of the 'Theory of Mind' code
-
-## Installation
-
+### Overview
 This project requires Python 3.9 and includes two main scripts located in the root folder. The necessary packages are listed in the `requirements.txt` file, and users can install them using a Python virtual environment or Anaconda.
-For the  'experimentNao' part of the project, additional installation requirements are needed before running the scripts. See [README Experiment](experimentNao/README.md) for more information.
 
 ### Prerequisites
 Ensure that Python 3.9 is installed on your system. You can install Python 3.9 using any of the following methods:
@@ -66,18 +51,16 @@ pip install -r requirements.txt
 ```
 
 ### Running the Main Scripts
-There are two main scripts in the root folder. They correspond to the EXPERIMENT mode. 
-Check the [README Experiment](experimentNao/README.md) for more information about the purpose and working flow of these two mains. 
-You can run the two main scripts using the following commands:
+There are two main scripts in the root folder. You can run them using the following commands:
 
 1. **Running the first main script:**
    ```bash
-   python main_identification.py
+   python main1.py
    ```
 
 2. **Running the second main script:**
    ```bash
-   python main_interaction.py
+   python main2.py
    ```
 
 Ensure that your virtual environment is activated when running the scripts.
@@ -95,7 +78,5 @@ Once you're done working with the project, you can deactivate the virtual enviro
   deactivate
   ```
 
-## Usage
-Depending on which block of the project you are interested, search the 'Usage' section under the corresponding README file:
-- if you want to run the example interaction 'experimentNAO': [README Experiment|Usage](experimentNao/README.md#Usage)
-- if you want to use the 'Theory of Mind' model: [README Model|Usage](lib/tom_model/README#Usage)
+### License
+Include licensing information here if applicable.
