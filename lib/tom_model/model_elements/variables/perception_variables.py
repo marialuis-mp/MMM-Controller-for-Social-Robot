@@ -33,7 +33,8 @@ class PerceivedKnowledgeSet(OuterElement):
         self.knowledge = tuple(self.knowledge)
 
     def add_knowledge(self, piece_of_knowledge):
-        if isinstance(piece_of_knowledge, fst_dynamics_variables.RationallyPerceivedKnowledge):
+        if (isinstance(piece_of_knowledge, fst_dynamics_variables.RationallyPerceivedKnowledge) or
+                isinstance(piece_of_knowledge, fst_dynamics_variables.PerceivedKnowledge)):
             self.knowledge.append(piece_of_knowledge)
         elif isinstance(piece_of_knowledge, list):
             for piece in piece_of_knowledge:

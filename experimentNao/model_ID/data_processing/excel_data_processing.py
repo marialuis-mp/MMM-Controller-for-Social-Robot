@@ -176,6 +176,9 @@ def get_normalization_values_of_rld_from_participant_file(participant_data_files
     dfs_performance = []
     for file in participant_data_files:
         dfs_performance.append(get_specific_sheets_from_file(file, 'Performance')[0])
+    if len(dfs_performance) == 0:
+        raise TypeError("Make sure there us at least one file corresponding to the participant output in one "
+                        "interaction, in order to identify the model")
     dfs_performance = pd.concat(dfs_performance)
     # Construct dict
     rld_max_values = dict()

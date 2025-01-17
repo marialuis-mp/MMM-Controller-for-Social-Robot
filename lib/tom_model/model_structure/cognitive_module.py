@@ -81,7 +81,7 @@ class CognitiveModule:
         all_variables = self.get_all_fast_dynamics_vars(include_raw_data=False if self.data_beliefs is None else True)
         for var in all_variables:  # here, current value is updated for all variables
             assert isinstance(var, fast_dyn.FastDynamicsVariable)
-            var.update_value(learning_rate=0.7)  # we update 0.7 of value (keep 0.3 of previous value)
+            var.update_value()  # we update 0.7 of value (keep 0.3 of previous value)
 
 # ***************************************************** Get Variables **********************************************
     def get_all_fast_dynamics_vars(self, include_raw_data=False):
@@ -96,9 +96,9 @@ class CognitiveModule:
         All fast dynamics variables
         """
         if include_raw_data:
-            return self.beliefs + self.goals + self.emotions + self.biases + (self.data_beliefs, )
+            return self.beliefs + self.goals + self.emotions + self.biases + (tuple(self.pk) if self.pk is not None else ()) + (self.data_beliefs, )
         else:
-            return self.beliefs + self.goals + self.emotions + self.biases
+            return self.beliefs + self.goals + self.emotions + self.biases + (tuple(self.pk) if self.pk is not None else ())
 
     def get_beliefs(self):
         return self.beliefs

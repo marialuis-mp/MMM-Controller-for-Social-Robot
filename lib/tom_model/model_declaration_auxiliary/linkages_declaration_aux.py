@@ -3,7 +3,9 @@ from lib.tom_model.model_elements.linkage.scheduled_weight import ScheduledWeigh
 
 
 def add_several_influencers_w_sw(variable: fst_dyn.FastDynamicsVariable, influencers, boundary_values=None):
-    """ add several influencers of 1 variable, each one with a Scheduled Weight
+    """ add several influencers of 1 variable, each one with a Scheduled Weight. With scheduled weights, since it is not
+     known how many weights there will be between two variables, the default scheduled weight is a list of two null
+     weights: [0, 0].
 
     Parameters
     ----------
@@ -22,7 +24,8 @@ def add_several_influencers_w_sw(variable: fst_dyn.FastDynamicsVariable, influen
 
 
 def add_several_influencers_simple(variable: fst_dyn.FastDynamicsVariable, influencers, boundary_values=None):
-    """ add several influencers of 1 variable, each one with a simple weight (float)
+    """ add several influencers of 1 variable, each one with a simple weight (float). It adds the variables with a
+    default weight of 1.
 
     Parameters
     ----------
