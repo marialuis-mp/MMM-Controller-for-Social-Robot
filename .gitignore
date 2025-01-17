@@ -1,0 +1,16 @@
+experimentNao/out/model_id_out/*
+!experimentNao/out/model_id_out/.gitkeep
+
+experimentNao/out/participants_rld/*
+!experimentNao/out/participants_rld/.gitkeep
+
+experimentNao/out/replies_participants/*
+!experimentNao/out/replies_participants/training_sessions
+experimentNao/out/replies_participants/training_sessions/*
+!experimentNao/out/replies_participants/training_sessions/to_id
+experimentNao/out/replies_participants/training_sessions/to_id/*
+!experimentNao/out/replies_participants/training_sessions/to_id/.gitkeep
+
+venv*
+.idea/
+*.iml

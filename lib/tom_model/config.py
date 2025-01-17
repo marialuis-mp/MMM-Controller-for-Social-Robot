@@ -1,0 +1,2 @@
+FRAMEWORK = "FCM"
+STEP = 0.01
