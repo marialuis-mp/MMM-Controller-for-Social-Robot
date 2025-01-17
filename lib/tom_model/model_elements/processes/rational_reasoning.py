@@ -2,7 +2,7 @@ import copy
 
 import lib.tom_model.model_elements.variables.perception_variables
 from lib.tom_model.model_elements.processes import process
-from lib.tom_model.model_elements.variables import fst_dynamics_variables, outer_variables
+from lib.tom_model.model_elements.variables import fst_dynamics_variables
 
 
 class RationalReasoning(process.PerceptionProcess):

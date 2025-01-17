@@ -1,6 +1,5 @@
 import lib.tom_model.model_elements.variables.perception_variables
 from lib.tom_model.model_elements.processes import process
-from lib.tom_model.model_elements.variables import outer_variables
 
 
 class PerceptualAccess(process.PerceptionProcess):

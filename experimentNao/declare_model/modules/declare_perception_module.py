@@ -1,7 +1,6 @@
 import lib.tom_model.model_elements.variables.perception_variables
 from experimentNao.declare_model import chess_interaction_data
-from experimentNao.declare_model.modules.reasoning_prepositions import ReasoningPrepos, PropFunction, ATanFunction, \
-    BoolFunctionParam, BoolFunction, ExpFunction, PropPosFunction, PropSimpleFunction
+from experimentNao.declare_model.modules.reasoning_prepositions import ReasoningPrepos, PropFunction,  BoolFunctionParam, BoolFunction, ExpFunction, PropPosFunction, PropSimpleFunction
 from lib.algorithms.gradient_descent.parameters2optimise import Parameter2Optimise
 from lib.tom_model.model_elements.processes import perceptual_access, rational_reasoning
 
