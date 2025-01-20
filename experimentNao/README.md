@@ -1,6 +1,5 @@
 # Interactions with model-based-control
-
-This repository that allows to generate the three sessions of interactions used in [URL TO PAPER], as well as identify 
+This repository allows to generate the three sessions of interactions used in [URL TO PAPER], as well as to identify 
 the models using the data collected in training interactions.
 
 ** Structure of the repository ** \

@@ -1,22 +1,21 @@
 # Model Based Controller
-
-This repository does this...
+This repository allows to create a theory of mind model of the humans in the context of social interactions between social robots and human users.
+Furthermore, it allows integrating the model into a controller of a social robot in order to automatically control the social robot based on the model estimations, by defining objectives regarding the mental states of the human users.
 
 ## Structure of the repository
-
 The repository is organized into two big parts:
 - **'lib'**: general files that can be used to create your own human-robot-interaction based on our framework. **It includes the ToM Model** code.
 - **'experimentNao'**: Human-Robot interaction between Nao robot where the humans participants can play chess with the robot. 
   - The robot uses the ToM model to interact with the participant. This package depends on the 'lib' package.
+  - This experiment corresponds to the case-study in [URL TO PAPER]. 
 
 Depending on which part of the project you are planning to use, find the specific READ ME file for each one the two parts inside the respective folder:
 - [README Experiment](experimentNao/README.md) of 'experimentNao'.  
 - [README Model](lib/tom_model/README) of the 'Theory of Mind' code
 
 ## Installation
-
 This project requires Python 3.9 and includes two main scripts located in the root folder. The necessary packages are listed in the `requirements.txt` file, and users can install them using a Python virtual environment or Anaconda.
-For the  'experimentNao' part of the project, additional installation requirements are needed before running the scripts. See [README Experiment](experimentNao/README.md) for more information.
+**Important:** For the  'experimentNao' part of the project, additional installation requirements are needed before running the scripts. See [README Experiment](experimentNao/README.md) for more information.
 
 ### Prerequisites
 Ensure that Python 3.9 is installed on your system. You can install Python 3.9 using any of the following methods:
@@ -25,7 +24,6 @@ Ensure that Python 3.9 is installed on your system. You can install Python 3.9 u
 - **venv**: A lightweight virtual environment tool included with Python.
 
 #### Installing Python 3.9 (Anaconda)
-
 1. Download and install [Anaconda](https://www.anaconda.com/products/individual).
 2. Create a new environment for Python 3.9:
    ```bash
@@ -42,7 +40,6 @@ Ensure that Python 3.9 is installed on your system. You can install Python 3.9 u
      ```
 
 #### Installing Python 3.9 (venv)
-
 1. Ensure Python 3.9 is installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
 2. Create a virtual environment:
    ```bash
