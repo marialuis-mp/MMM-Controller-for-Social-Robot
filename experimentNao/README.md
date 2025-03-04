@@ -1,5 +1,5 @@
 # Interactions with model-based-control
-This repository allows to generate the three sessions of interactions used in [URL TO PAPER], as well as to identify 
+This repository allows to generate the three sessions of interactions used in [the scientific article](/README.md#Model-based-controller-article), as well as to identify 
 the models using the data collected in training interactions.
 
 ** Structure of the repository ** \
@@ -30,8 +30,8 @@ If you wish to run several configurations in separate, you can compare them usin
 4. Run the [Pre Process Data](#pre-process-data) script before running [Interaction](#interaction) in "MBC" mode
 5. Run [Interaction](#interaction) in "MBC" mode for model based control.
 
-### Most important scripts 
-Run each of these mains to achieve the two main specific tasks of experimentNao (Interaction and model identification).
+### Most relevant scripts 
+Run each of these mains to achieve the two main specific tasks of experimentNao (**Interaction** and **Model identification**).
 To run these scripts you need to:
 1. Activate the environment
 2. Run the main.py
@@ -64,16 +64,16 @@ experimentNao/out/replies_participants (see [the structure of the output folder]
 ### Additional (data processing) scripts 
 These are the additional scripts to process the data from/before the interactions and the identification, as described in the workflow above.
 
-#### Post Identification Analysis
-- Main: experimentNao/data_analysis/post_id_analysis/main_post_id.py
+##### Post Identification Analysis
+- **Main:** experimentNao/data_analysis/post_id_analysis/main_post_id.py
 
-#### Pre Process Data
-- Main: main_pre_mbc_interaction.py
+##### Pre Process Data
+- **Main:** main_pre_mbc_interaction.py
 
-### Data structure
+### Output data - folder structure
 The output folder should have the following structure, in experimentNao/out:
 ```
-out 
+experimentNao/out 
 ├── model_id_out
 ├── participants_rld
 ├── replies_participants

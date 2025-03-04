@@ -12,7 +12,7 @@ if __name__ == '__main__':
     CLI = argparse.ArgumentParser()
     CLI.add_argument('--model_config', nargs='*', type=str, default=['SIMPLEST_W_BIAS'])
     CLI.add_argument('--training_set', nargs='*', type=str, default=['A'])
-    CLI.add_argument('--id_cog_mode', nargs='*', type=str, default=['SEP_PER_2'])
+    CLI.add_argument('--id_cog_mode', nargs='*', type=str, default=['ALL'])
     CLI.add_argument('--simple_dyn', nargs='*', type=str, default=['YES'])
     CLI.add_argument('--incremental', nargs='*', type=str, default=['YES'])
     CLI.add_argument('--n_horizon', nargs='*', type=int, default=[1])

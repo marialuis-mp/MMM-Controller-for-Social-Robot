@@ -1,13 +1,16 @@
 # Model Based Controller
 This repository allows to create a theory of mind model of the humans in the context of social interactions between social robots and human users.
 Furthermore, it allows integrating the model into a controller of a social robot in order to automatically control the social robot based on the model estimations, by defining objectives regarding the mental states of the human users.
+The methodology behind the construction of the theory of mind model is published in ["Dynamic Mathematical Models of Theory of Mind for Socially Assistive Robots"](https://doi.org/10.1109/ACCESS.2023.3316603).
+The methodology behind the development of the model-based controller is detailed in [URL TO PAPER, will be updated once paper is published].
+Furthermore, this repository includes a usage example of the model-based controller, which was used in the case-study of the same paper.
 
 ## Structure of the repository
 The repository is organized into two big parts:
 - **'lib'**: general files that can be used to create your own human-robot-interaction based on our framework. **It includes the ToM Model** code.
 - **'experimentNao'**: Human-Robot interaction between Nao robot where the humans participants can play chess with the robot. 
   - The robot uses the ToM model to interact with the participant. This package depends on the 'lib' package.
-  - This experiment corresponds to the case-study in [URL TO PAPER, will be updated once paper is published]. 
+  - This experiment corresponds to the case-study in [scientific article](#scientific-article). 
 
 Depending on which part of the project you are planning to use, find the specific READ ME file for each one the two parts inside the respective folder:
 - [README Experiment](experimentNao/README.md) of 'experimentNao'.  
@@ -96,3 +99,9 @@ Once you're done working with the project, you can deactivate the virtual enviro
 Depending on which block of the project you are interested, search the 'Usage' section under the corresponding README file:
 - if you want to run the example interaction 'experimentNAO': [README Experiment|Usage](experimentNao/README.md#Usage)
 - if you want to use the 'Theory of Mind' model: [README Model|Usage](lib/tom_model/README.md#Usage)
+
+## Scientific Article
+### Theory of Mind Model Article
+The scientific article ["Dynamic Mathematical Models of Theory of Mind for Socially Assistive Robots"](https://doi.org/10.1109/ACCESS.2023.3316603) details the development and mathematical formulation of the theory of mind model.
+### Model based controller Article
+The scientific article [URL TO PAPER, will be updated once paper is published] describes the development of the model-based control approach. This article also includes the implementation of the approach on a case-study.

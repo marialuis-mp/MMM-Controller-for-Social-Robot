@@ -1,5 +1,5 @@
 # Theory of Mind model
-This repository that allows to declare a theory of mind (ToM) model with the structure provided in [...]. 
+This repository that allows to declare a theory of mind (ToM) model with the structure provided in [the scientific article](/README.md#Theory-of-mind-model-article). 
 
 ** Structure of the repository ** \
 ```
