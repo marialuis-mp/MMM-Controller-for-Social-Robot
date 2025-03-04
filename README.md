@@ -1,7 +1,7 @@
 # Model Based Controller
 This repository allows to create a theory of mind model of the humans in the context of social interactions between social robots and human users.
-Furthermore, it allows integrating the model into a controller of a social robot in order to automatically control the social robot based on the model estimations, by defining objectives regarding the mental states of the human users.
-The methodology behind the construction of the theory of mind model is published in ["Dynamic Mathematical Models of Theory of Mind for Socially Assistive Robots"](https://doi.org/10.1109/ACCESS.2023.3316603).
+Furthermore, it allows integrating the model into a controller of a social robot in order to automatically control the social robot based on the model estimations, by defining objectives regarding the mental states of the human users. \
+The methodology behind the construction of the theory of mind model is published in ["Dynamic Mathematical Models of Theory of Mind for Socially Assistive Robots"](https://doi.org/10.1109/ACCESS.2023.3316603). \
 The methodology behind the development of the model-based controller is detailed in [URL TO PAPER, will be updated once paper is published].
 Furthermore, this repository includes a usage example of the model-based controller, which was used in the case-study of the same paper.
 
