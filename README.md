@@ -1,5 +1,5 @@
 # Model Based Controller
-This repository allows to create a theory of mind model of the humans in the context of social interactions between social robots and human users.
+This repository allows to create a theory of mind model of the human users in the context of interactions between social robots and human users.
 Furthermore, it allows integrating the model into a controller of a social robot in order to automatically control the social robot based on the model estimations, by defining objectives regarding the mental states of the human users. \
 The methodology behind the construction of the theory of mind model is published in ["Dynamic Mathematical Models of Theory of Mind for Socially Assistive Robots"](https://doi.org/10.1109/ACCESS.2023.3316603). \
 The methodology behind the development of the model-based controller is detailed in [URL TO PAPER, will be updated once paper is published].
@@ -100,8 +100,9 @@ Depending on which block of the project you are interested, search the 'Usage' s
 - if you want to run the example interaction 'experimentNAO': [README Experiment|Usage](experimentNao/README.md#Usage)
 - if you want to use the 'Theory of Mind' model: [README Model|Usage](lib/tom_model/README.md#Usage)
 
-## Scientific Article
+## Scientific Articles
 ### Theory of Mind Model Article
 The scientific article ["Dynamic Mathematical Models of Theory of Mind for Socially Assistive Robots"](https://doi.org/10.1109/ACCESS.2023.3316603) details the development and mathematical formulation of the theory of mind model.
 ### Model based controller Article
-The scientific article [URL TO PAPER, will be updated once paper is published] describes the development of the model-based control approach. This article also includes the implementation of the approach on a case-study.
+The scientific article [URL TO PAPER, will be updated once paper is published] describes the development of the model-based control approach. This article also includes the implementation of the approach on a case-study using a Nao robot. 
+The code to simulate the case-study and reproduce the results of this article is included in this repository.   
