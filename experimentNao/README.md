@@ -28,9 +28,7 @@ The general **workflow** adopted was:
 If you wish to run several configurations in separate, you can compare them using 
 [the post identification analysis](#post-identification-analysis)
 4. Run the [Pre Process Data](#pre-process-data) script before running [Interaction](#interaction) in "MBC" mode
-5. Run [Interaction](#interaction) in "MBC" mode for model based control. 
-6. [Optional] To gather the results of all participants, and compare the results between the MBC controller and the 
-alternative controller, run the [Final Processing](#final-processing) script.
+5. Run [Interaction](#interaction) in "MBC" mode for model based control.
 
 ### Most important scripts 
 Run each of these mains to achieve the two main specific tasks of experimentNao (Interaction and model identification).
@@ -64,16 +62,13 @@ participant and its output file was generated.
 experimentNao/out/replies_participants (see [the structure of the output folder](#output-folder)).
 
 ### Additional (data processing) scripts 
-These are the additional scripts to post-process the data from the interactions and the identification, as described in the workflow above.
-
-#### Pre Process Data
-- Main: experimentNao/data_analysis/pre_process_data/main_pre_id.py
+These are the additional scripts to process the data from/before the interactions and the identification, as described in the workflow above.
 
 #### Post Identification Analysis
 - Main: experimentNao/data_analysis/post_id_analysis/main_post_id.py
 
-#### Final Processing
-- Main: 'experimentNao/data_analysis/final_processing/main_final_processing.py'
+#### Pre Process Data
+- Main: main_pre_mbc_interaction.py
 
 ### Data structure
 The output folder should have the following structure, in experimentNao/out:

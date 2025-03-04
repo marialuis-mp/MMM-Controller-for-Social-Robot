@@ -22,11 +22,6 @@ if __name__ == '__main__':
     # interaction_settings.set_settings_mbc()
     # interaction_settings.set_settings_alternative()
 
-    # To delete
-    interaction_settings.with_nao = False
-    interaction_settings.save_excel = False
-    interaction_settings.second_screen = False
-
     # ************************************ Run interaction ************************************
     if interaction_settings.interaction_mode == interaction_manager.InteractionMode.TRAINING:   # in first 2 sessions,
         id_config.model_config = model_configs.ModelConfigs.DEFAULT                             # use model default

@@ -7,11 +7,11 @@ The repository is organized into two big parts:
 - **'lib'**: general files that can be used to create your own human-robot-interaction based on our framework. **It includes the ToM Model** code.
 - **'experimentNao'**: Human-Robot interaction between Nao robot where the humans participants can play chess with the robot. 
   - The robot uses the ToM model to interact with the participant. This package depends on the 'lib' package.
-  - This experiment corresponds to the case-study in [URL TO PAPER]. 
+  - This experiment corresponds to the case-study in [URL TO PAPER, will be updated once paper is published]. 
 
 Depending on which part of the project you are planning to use, find the specific READ ME file for each one the two parts inside the respective folder:
 - [README Experiment](experimentNao/README.md) of 'experimentNao'.  
-- [README Model](lib/tom_model/README) of the 'Theory of Mind' code
+- [README Model](lib/tom_model/README.md) of the 'Theory of Mind' code
 
 ## Installation
 This project requires Python 3.9 and includes two main scripts located in the root folder. The necessary packages are listed in the `requirements.txt` file, and users can install them using a Python virtual environment or Anaconda.
@@ -95,4 +95,4 @@ Once you're done working with the project, you can deactivate the virtual enviro
 ## Usage
 Depending on which block of the project you are interested, search the 'Usage' section under the corresponding README file:
 - if you want to run the example interaction 'experimentNAO': [README Experiment|Usage](experimentNao/README.md#Usage)
-- if you want to use the 'Theory of Mind' model: [README Model|Usage](lib/tom_model/README#Usage)
+- if you want to use the 'Theory of Mind' model: [README Model|Usage](lib/tom_model/README.md#Usage)

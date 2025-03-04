@@ -1,6 +1,6 @@
 """ File with the participant identifier. Uncomment the line with the identifier of the participant that is currently
-interaction with the robot (IF experimentNao/interaction/main.py is run) OR whose identification is being run
-(IF experimentNao/model_ID/main.py is run).
+interaction with the robot (IF main_interaction.py is run) OR whose identification is being run
+(IF main_interaction.py is run).
 
 """
 
