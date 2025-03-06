@@ -14,3 +14,4 @@ experimentNao/out/replies_participants/training_sessions/to_id/*
 venv*
 .idea/
 *.iml
+__pycache__
