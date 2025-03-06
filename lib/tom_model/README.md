@@ -13,7 +13,7 @@ lib\tom_model\
 ```
 
 ## Installation
-See [overall ReadMe](README.md#Installation) file in root folder for information about installation.
+See [overall ReadMe](/README.md#Installation) file in root folder for information about installation.
 No further installation steps are required after following this.
 
 ## Usage

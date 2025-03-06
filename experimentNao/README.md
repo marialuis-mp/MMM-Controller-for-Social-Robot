@@ -10,7 +10,7 @@ experimentNao
 ```
 
 ## Installation
-You must first follow the installation guide from [README Overall](README.md#Installation) file. This section represents additional requirements to use the experimentNao package. 
+You must first follow the installation guide from [README Overall](/README.md#Installation) file. This section represents additional requirements to use the experimentNao package. 
 
 - Install stockfish (follow the instructions given in https://pypi.org/project/stockfish/). 
   - **Important:** Add the path to stockfish on your computer as the variable: "stockfish_path" in 'experimentNao/folder_path.py'. \
@@ -36,7 +36,7 @@ To run these scripts you need to:
 1. Activate the environment
 2. Run the main.py
 3. Deactivate the environment
-For full information on how to run these scripts, check out the overall README file [README Overall](README.md#Usage).
+For full information on how to run these scripts, check out the overall README file [README Overall](/README.md#Usage).
 
 ##### Interaction
 - **Main:** 'main_interaction.py':  
